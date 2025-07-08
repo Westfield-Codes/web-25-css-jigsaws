@@ -1,0 +1,98 @@
+
+html{
+  height:100%;
+  width:100%;
+}
+
+#project {
+  width:60%;
+  padding:20px;
+  text-align:center;
+  margin:auto;
+}
+
+#set img {
+  position:absolute;
+  width: 30px;
+}
+
+#set {
+  position:relative;
+  z-index:0;
+  width:600px;
+  height:406px;
+  border:solid;
+  border-color:purple;
+  background-image:url(images/newstardew.png);
+}
+
+/* ghosts */
+
+    /* people */
+    #stardew1, #stardew2, #stardew3, #stardew4, #stardew5 {
+      visibility:visible;
+    
+    }
+    /* ghosts */
+    #ghost1, #ghost2, #ghost3, #ghost4, #ghost5 {
+      opacity:0.1;
+  
+    }
+    
+  #ghost1 {
+    top: 150px;
+  }
+  
+  #ghost2 {
+    top: 315px;
+    left: 145px;
+  }
+
+  #ghost3 {
+    top: 315px;
+    left: 375px;
+  }
+
+  #ghost3 {
+    top: 150px;
+    left: 500px;
+  }
+  
+  #ghost4 {
+    top: 315px;
+    left: 375px;
+  }
+
+  #ghost5 {
+    top: 280px;
+    left: 580px;
+  }
+  
+  /*people*/
+
+  
+  #stardew1{
+    top: 150px;
+    left:20px;
+  }
+
+  #stardew2{
+    top: 315px;
+    left: 165px;
+  }
+
+  #stardew3{
+    top: 150px;
+    left: 520px;
+   
+  }
+
+  #stardew4{
+    top: 315px;
+    left: 355px;
+  }
+
+  #stardew5 {
+    top: 280px;
+    left: 560px;
+  }
